@@ -24,3 +24,6 @@ json_path = r"E:\WeChat\version.json"
 ![image](https://github.com/user-attachments/assets/e2e08ee6-0f87-444c-9b33-9763d2f17ae5)
 
 在 4.0 系列版本中，大概从 v4.0.3.19 版本起，产品脱离测试阶段，转为正式版。
+
+> [!TIP]
+> 手动收集可能存在遗漏，若需相对全面的版本安装包，可前往[自动收集](https://github.com/cscnk52/wechat-windows-versions)查看，该仓库每小时收集一次。 
