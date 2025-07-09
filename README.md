@@ -3,6 +3,8 @@
 - 下载地址：https://pc.weixin.qq.com
 
 # 运行
+### 下载微信客户端 v2.py
+
 - 电脑需要安装 7-Zip
 - 修改以下代码中的路径：
   - `WeChat_path`：微信客户端保存路径
@@ -15,6 +17,13 @@ WeChat_path = r"E:\WeChat\WeChatWin.exe"
 zip_path = r"D:\APP\7-Zip\7z.exe"
 output_dir = r"E:\WeChat\extracted"
 json_path = r"E:\WeChat\version.json"
+```
+
+### 发布微信安装包.py
+  - `token_path`：存放经过 Base64 编码的 GitHub 访问令牌的文件
+
+```
+token_path = rf"{directory}\token.txt"
 ```
 
 # 备注
