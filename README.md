@@ -3,7 +3,7 @@
 - 下载地址：https://pc.weixin.qq.com
 
 # 运行
-### 下载微信客户端 v2.py
+### 微信安装包下载 v2.py
 
 - 电脑需要安装 7-Zip
 - 修改以下代码中的路径：
@@ -19,7 +19,7 @@ output_dir = r"E:\WeChat\extracted"
 json_path = r"E:\WeChat\version.json"
 ```
 
-### 发布微信安装包.py
+### 微信安装包发布.py
   - `token_path`：存放经过 Base64 编码的 GitHub 访问令牌的文件
 
 ```
@@ -34,6 +34,7 @@ token_path = rf"{directory}\token.txt"
 
 在 4.0 系列版本中，大概从 v4.0.3.19 版本起，产品脱离测试阶段，转为正式版。
 
+微信官方于 2025-10-21 调整最新版安装包下载地址，地址中新增版本号标识。
 
 > [!TIP]
 > 手动收集可能存在遗漏，若需相对全面的历史版本安装包，可前往[自动收集](https://github.com/cscnk52/wechat-windows-versions)查看，该仓库每小时收集一次。 
